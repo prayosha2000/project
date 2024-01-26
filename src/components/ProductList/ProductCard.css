@@ -1,0 +1,29 @@
+/* ProductCard.css */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  
+    .product-info {
+      margin-top: 10px;
+  
+      h3 {
+        margin: 0;
+        font-size: 18px;
+      }
+    }
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
